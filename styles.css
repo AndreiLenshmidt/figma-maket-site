@@ -1,0 +1,588 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Tinos:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapped {
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-sans400 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+
+.open-sans700 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+
+.tinos400 {
+  font-family: "Tinos";
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.bgk-top {
+  background-color: #000;
+}
+
+.big-conteiner {
+  max-width: 1440px;
+  background-image: url("/images/bkg-man-image.png");
+  margin: 0 auto;
+  min-height: 800px;
+}
+.big-conteiner header {
+  padding: 50px 165px;
+  color: #fff;
+  font-size: 18px;
+}
+.big-conteiner header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.big-conteiner header .header-logo {
+  position: relative;
+  min-width: 100px;
+}
+.big-conteiner header .header-logo .square1, .big-conteiner header .header-logo .square2 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: 3px solid #FF7400;
+  transform: rotate(45deg);
+}
+.big-conteiner header .header-logo .square1 {
+  top: 10px;
+  left: 10px;
+}
+.big-conteiner header .header-logo .square2 {
+  top: 10px;
+  right: 10px;
+}
+.big-conteiner header .header-nav {
+  align-items: center;
+  gap: 25px;
+}
+.big-conteiner header .header-nav .header-nav-link {
+  display: block;
+  padding: 25px 10px;
+}
+.big-conteiner header .header-nav .header-nav-link img {
+  padding-top: 9px;
+}
+.big-conteiner header .header-nav .header-box {
+  max-width: 395px;
+}
+.big-conteiner header .header-nav .header-box .contacts {
+  max-width: 250px;
+  min-width: 170px;
+  border-left: 1px solid #fff;
+  padding-left: 31px;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.big-conteiner header .header-nav .header-box .contacts .contacts-number {
+  list-style-image: url("/images/phone.svg");
+  padding-left: 8px;
+  margin-left: 31px;
+}
+.big-conteiner header .header-nav .order {
+  display: block;
+  min-width: 120px;
+  padding: 14px 18px;
+  background-color: #FF7400;
+}
+.big-conteiner .main {
+  padding: 154px 165px 0;
+}
+.big-conteiner .main h1 {
+  max-width: 484px;
+  color: #D67E34;
+  font-size: 50px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+.big-conteiner .main span {
+  display: block;
+  font-size: 80px;
+}
+.big-conteiner .main .main-box {
+  max-width: 484px;
+  min-width: 304px;
+  display: block;
+  position: relative;
+}
+.big-conteiner .main .main-box p {
+  color: #fff;
+  max-width: 484px;
+  font-size: 18px;
+  text-align: center;
+}
+.big-conteiner .main .main-box .box-before {
+  border-bottom: 2px solid #fff;
+  width: 61px;
+  height: 2px;
+  position: absolute;
+  top: 7px;
+  left: 90px;
+}
+.big-conteiner .main .main-box .box-after {
+  border-bottom: 2px solid #fff;
+  width: 61px;
+  height: 2px;
+  position: absolute;
+  top: 7px;
+  right: 90px;
+}
+.big-conteiner .main .a-box {
+  margin-top: 35px;
+  max-width: 484px;
+  text-align: center;
+}
+.big-conteiner .main .a-box a {
+  padding: 14px 28px;
+  background-color: #FF7400;
+  text-decoration: none;
+  color: #fff;
+}
+
+.absolute {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.absolute .absolute-box {
+  max-width: 1110px;
+  gap: 31px;
+  margin: 0 auto;
+  position: absolute;
+  top: -107px;
+  margin: 0 165px;
+}
+.absolute .absolute-box .card-absolute {
+  max-width: 349px;
+  min-width: 349px;
+  min-height: 328px;
+  text-align: center;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1019607843);
+  padding: 48px 40px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #656363;
+}
+.absolute .absolute-box .card-absolute span {
+  color: #BC9060;
+}
+.absolute .absolute-box .card-absolute p:first-of-type {
+  margin-bottom: 20px;
+}
+.absolute .absolute-box .card-absolute p {
+  color: #656363;
+  font-size: 26px;
+}
+
+.history {
+  max-width: 1440px;
+  margin: 371px auto 122px;
+}
+.history .history-container {
+  gap: 25px;
+  margin: 0 165px;
+}
+.history .history-left {
+  max-width: 445px;
+  text-align: center;
+  margin-top: 16px;
+}
+.history .history-left h3 {
+  margin: 16px 0 21px 0;
+  font-size: 54px;
+}
+.history .history-left h3 span {
+  color: #D67E34;
+}
+.history .history-left .history-text {
+  color: #656363;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+.history .history-left .history-flex {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 182px;
+}
+.history .history-left .history-flex .history-box-counter {
+  font-size: 40px;
+  color: #BC9060;
+  margin-bottom: 8px;
+}
+.history .history-left .history-flex .history-box-name {
+  font-size: 20px;
+}
+.history .history-right {
+  position: relative;
+  width: 539px;
+  height: 498px;
+  border-color: #FF7400;
+}
+.history .history-right .history-box1 {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  z-index: 1;
+}
+.history .history-right .history-box2 {
+  position: absolute;
+  top: 0;
+  left: 190px;
+  z-index: 0;
+}
+.history .history-right .history-box3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.history .history-right .history-box4 {
+  position: absolute;
+  width: 212px;
+  height: 164px;
+  top: 33px;
+  right: 42px;
+  background-color: #FFE8D0;
+  z-index: -1;
+}
+
+.bgk-promotion {
+  background-color: #000;
+}
+
+.promotion {
+  max-width: 1440px;
+  background-image: url("/images/bkg-promotion.png");
+  margin: 0 auto;
+  min-height: 357px;
+}
+.promotion .promotion-box {
+  margin: 0 165px;
+}
+.promotion .promotion-box h3 {
+  color: #D67E34;
+  font-size: 52px;
+  max-width: 601px;
+  margin-top: 80px;
+}
+.promotion .promotion-box h3:after {
+  content: "Только в этом месяце бизнес-ланч от 250 ₽";
+  display: block;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  color: #fff;
+  padding-top: 20px;
+}
+.promotion .promotion-box .promotion-right {
+  margin-top: 155px;
+}
+.promotion .promotion-box .promotion-right a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  background-color: #FF7400;
+}
+
+.food {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 152px;
+}
+.food .food-header {
+  margin: 135px 165px 139px;
+  text-align: center;
+  font-size: 54px;
+}
+.food .food-header span {
+  color: #D67E34;
+}
+.food .food-container {
+  margin: 0 165px;
+  gap: 30px;
+  justify-content: start;
+}
+.food .food-container .food-left img {
+  width: 445px;
+  height: 478px;
+}
+.food .food-container .food-right {
+  display: block;
+  max-width: 635px;
+  font-size: 26px;
+}
+.food .food-container .food-right .food-right-box {
+  justify-content: start;
+  margin-bottom: 29px;
+  flex-wrap: nowrap;
+}
+.food .food-container .food-right .food-right-box img {
+  width: 160px;
+  height: 140px;
+}
+.food .food-container .food-right .food-right-box .food-right-text {
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+.food .food-container .food-right .food-right-box .food-right-text .hamburger {
+  margin-left: 30px;
+  padding-top: 40px;
+}
+.food .food-container .food-right .food-right-box .food-right-text .flex-text {
+  overflow: hidden;
+  height: 30px;
+  padding-top: 40px;
+}
+.food .food-container .food-right .food-right-box .food-right-text .hamburger-price {
+  padding-top: 40px;
+  min-width: 59px;
+}
+.food .food-container .food-right .food-right-box:last-of-type {
+  margin-bottom: 0;
+}
+
+.bkg-menu {
+  background-color: rgb(52, 32, 10);
+}
+
+.menu {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 1034px;
+  background-image: url("/images/bkg-bar.png");
+  text-align: center;
+}
+.menu .menu-header {
+  font-size: 54px;
+  color: #fff;
+  padding: 100px 0 138px;
+  margin: 0 auto;
+}
+.menu .menu-box {
+  margin: 0 165px;
+  max-width: 1110px;
+  gap: 30px;
+}
+.menu .menu-box .card {
+  min-width: 350px;
+  background-color: #fff;
+  padding: 80px 62px 43px;
+  box-sizing: border-box;
+  position: relative;
+}
+.menu .menu-box .card .card-box {
+  background-image: url("/images/abstract-food.png");
+  width: 225px;
+  height: 225px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.menu .menu-box .card .card-box::after {
+  position: absolute;
+  content: "420";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #D67E34;
+  top: 205px;
+  right: 62px;
+  border-radius: 100%;
+  border: 7px solid #fff;
+  box-sizing: border-box;
+  font-family: "Cookie";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  color: #fff;
+  padding-top: 28px;
+}
+.menu .menu-box .card h4 {
+  margin: 21px 0 17px;
+  max-width: 225px;
+  font-size: 26px;
+}
+.menu .menu-box .card p {
+  font-size: 16px;
+  max-width: 225px;
+  padding: 0 10px;
+  margin-bottom: 34px;
+}
+.menu .menu-box .card a {
+  padding: 14px 67px;
+  background-color: #D67E34;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.bkg-comment {
+  background-color: #E5E5E5;
+}
+
+.comment {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+.comment .comment-text {
+  padding-top: 104px;
+  max-width: 920px;
+  margin: 0 260px 20px;
+  font-style: italic;
+  font-size: 20px;
+}
+.comment .comment-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto 16px;
+}
+.comment .visiter {
+  margin-bottom: 9px;
+  font-size: 20px;
+}
+.comment .comment-owner {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.comment .comment-button {
+  padding-bottom: 107px;
+}
+
+.gallery {
+  max-width: 1440px;
+  margin: 101px auto;
+  text-align: center;
+  position: relative;
+}
+.gallery .swap-left {
+  width: 30px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 121px;
+}
+.gallery .swap-right {
+  width: 30px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 121px;
+  right: 0;
+}
+.gallery h3 {
+  font-size: 54px;
+  margin-bottom: 60px;
+}
+.gallery h3 span {
+  color: #D67E34;
+}
+.gallery .gallery-box {
+  margin: 0 165px;
+  align-content: space-between;
+  gap: 30px;
+}
+.gallery .gallery-box .gallery-top {
+  margin-bottom: 30px;
+}
+.gallery .gallery-box .gallery-top,
+.gallery .gallery-box .gallery-bottom {
+  gap: 30px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.gallery .gallery-box .gallery-top .gallery-left,
+.gallery .gallery-box .gallery-bottom .gallery-left {
+  max-width: 540px;
+  min-width: 540px;
+  overflow: hidden;
+  flex-grow: 1;
+}
+.gallery .gallery-box .gallery-top .gallery-left img,
+.gallery .gallery-box .gallery-bottom .gallery-left img {
+  width: 540px;
+  height: 275px;
+}
+.gallery .gallery-box .gallery-top .gallery-right,
+.gallery .gallery-box .gallery-bottom .gallery-right {
+  min-width: 540px;
+  justify-content: space-between;
+  gap: 30px;
+  flex-grow: 1;
+}
+.gallery .gallery-box .gallery-top .gallery-right .gallery-right1,
+.gallery .gallery-box .gallery-top .gallery-right .gallery-right2,
+.gallery .gallery-box .gallery-bottom .gallery-right .gallery-right1,
+.gallery .gallery-box .gallery-bottom .gallery-right .gallery-right2 {
+  width: 255px;
+  height: 275px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.gallery .gallery-box .gallery-top .gallery-right .gallery-right1 img,
+.gallery .gallery-box .gallery-top .gallery-right .gallery-right2 img,
+.gallery .gallery-box .gallery-bottom .gallery-right .gallery-right1 img,
+.gallery .gallery-box .gallery-bottom .gallery-right .gallery-right2 img {
+  width: 255px;
+  height: 275px;
+}
+
+.cook {
+  max-width: 1440px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+.cook .cook-header {
+  font-size: 54px;
+  margin-bottom: 107px;
+}
+.cook .cook-header span {
+  color: #D67E34;
+}
+.cook .cook-box {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.cook .cook-box img {
+  max-width: 350px;
+  min-width: 350px;
+}
+
+.bkg-footer {
+  background-color: rgb(52, 32, 10);
+}
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 732px;
+  background-image: url("/images/bkg-footer.png");
+}/*# sourceMappingURL=styles.css.map */
