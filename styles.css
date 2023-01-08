@@ -41,7 +41,7 @@
 
 .big-conteiner {
   max-width: 1440px;
-  background-image: url("/images/bkg-man-image.png");
+  background-image: url("images/bkg-man-image.png");
   margin: 0 auto;
   min-height: 800px;
 }
@@ -275,7 +275,7 @@
 
 .promotion {
   max-width: 1440px;
-  background-image: url("/images/bkg-promotion.png");
+  background-image: url("images/bkg-promotion.png");
   margin: 0 auto;
   min-height: 357px;
 }
@@ -375,7 +375,7 @@
   max-width: 1440px;
   margin: 0 auto;
   min-height: 1034px;
-  background-image: url("/images/bkg-bar.png");
+  background-image: url("images/bkg-bar.png");
   text-align: center;
 }
 .menu .menu-header {
@@ -397,7 +397,7 @@
   position: relative;
 }
 .menu .menu-box .card .card-box {
-  background-image: url("/images/abstract-food.png");
+  background-image: url("images/abstract-food.png");
   width: 225px;
   height: 225px;
   border-radius: 100%;
@@ -584,5 +584,5 @@ footer {
   max-width: 1440px;
   margin: 0 auto;
   height: 732px;
-  background-image: url("/images/bkg-footer.png");
+  background-image: url("images/bkg-footer.png");
 }/*# sourceMappingURL=styles.css.map */
